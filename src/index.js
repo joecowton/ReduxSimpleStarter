@@ -9,9 +9,8 @@ const App = () => {
   return (
     <div>
        <SearchBar />
-    </div>;
+    </div>
   );
 }
 
-// Take HTML and render to DOM
 ReactDOM.render(<App />, document.querySelector('.container'));
